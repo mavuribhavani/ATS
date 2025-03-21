@@ -1,0 +1,228 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ram patel",
+      "email": "rampatel@gmail.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sneha latha",
+      "email": "sneha.latha@gmail.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Viswa kumar",
+      "email": "viswa.kumar@gmail.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "id": "4",
+      "name": "Siva sai",
+      "email": "siva.sai@gmail.com",
+      "password": "password3",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "101",
+      "name": "Team A"
+    },
+    {
+      "id": "102",
+      "name": "Team B"
+    },
+    {
+      "id": "103",
+      "name": "Team C"
+    },
+    {
+      "id": "104",
+      "name": "Team D"
+    },
+    {
+      "id": "105",
+      "name": "Team E"
+    },
+    {
+      "id": "c2cf",
+      "name": "Team K"
+    },
+    {
+      "id": "f85b",
+      "name": "Team U"
+    },
+    {
+      "id": "3742",
+      "name": "Team M"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "201",
+      "title": "Develop Login Feature",
+      "description": "Implement user authentication using JWT.",
+      "status": "In Progress",
+      "scrumId": "101",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-30"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-31"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "Design Home Page UI",
+      "description": "Create a responsive design using Tailwind CSS.",
+      "status": "To Do",
+      "scrumId": "102",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-4"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-05"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-24"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "Set Up Database",
+      "description": "Configure MongoDB and create necessary collections.",
+      "status": "Done",
+      "scrumId": "103",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-28"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-22"
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "title": "Implement API Endpoints",
+      "description": "Develop RESTful APIs for user management.",
+      "status": "To Do",
+      "scrumId": "104",
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-15"
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "title": "Write Unit Tests",
+      "description": "Ensure all functions are covered with Jest tests.",
+      "status": "To Do",
+      "scrumId": "105",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-10"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-01"
+        },
+        {
+          "status": "Done",
+          "date": "2025-04-19"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-04-19"
+        }
+      ]
+    },
+    {
+      "id": "8576",
+      "title": " Design Homepage",
+      "description": "Create a responsive homepage layout",
+      "status": "To Do",
+      "scrumId": "c2cf",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "9729",
+      "title": "Agile project",
+      "description": "project using React",
+      "status": "To Do",
+      "scrumId": "f85b",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "a965",
+      "title": "LMS",
+      "description": "lms project",
+      "status": "In Progress",
+      "scrumId": "3742",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}
